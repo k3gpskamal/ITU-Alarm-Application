@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0078D7;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header button {
+    font-size: 24px;
+    background-color: white;
+    color: #0078D7;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #alarms-container {
+    padding: 20px;
+  }
+  
+  .alarm-container {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alarm-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .alarm-controls {
+    margin-top: 15px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+  }
+  
+  button.cancel-btn {
+    background-color: #ff4d4d;
+  }
+  
+  select, input {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+  }
+  
